@@ -2167,4 +2167,54 @@ figure {
 .button:active {
     background: #474148;
 }
+
+form {
+  padding-top: 10%;
+  margin: 0 auto;
+  width: 60%;
+}
+
+form .col-md-6 {
+  width: 49.99%
+}
+
+ @media screen and (max-width: 768px) {
+  #fh5co-header {
+    height: 300px;
+  }
+}
+#fh5co-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background: transparent;
+}
+
+#fh5co-header .bio-photo {
+  z-index: 20;
+  /* position: absolute; */
+  bottom: 0;
+  margin-bottom: 42px;
+  left: 50%;
+  /* margin-left: -92px; */
+}
+
+#fh5co-header .bio-photo img {
+  width: 250px;
+  height: 250px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+#fh5co-header .bio-photo a:after {
+  display: none !important;
+}
+
+
 /*# sourceMappingURL=style.css.map */
