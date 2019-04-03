@@ -126,10 +126,9 @@ header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margi
 header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
 
 div .heading-wrapper a {
-	margin-top: 5px;
 	border-radius: 5px;
 	padding: 10px 20px;
-	background: #FFAD01;
+	background-color: #FFAD01;
 }
 /* ---------------------------------
 4. INTRO SECTION
