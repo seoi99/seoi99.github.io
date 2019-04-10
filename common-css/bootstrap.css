@@ -592,6 +592,8 @@ h6, .h6 {
   line-height: 1.1;
 }
 
+
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -671,6 +673,7 @@ mark,
   max-width: 100%;
   height: auto;
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
