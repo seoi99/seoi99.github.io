@@ -6,10 +6,6 @@
 
 jQuery(document).ready(function($) {
 
-	"use strict";
-
-
-
 	var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {
@@ -126,6 +122,7 @@ jQuery(document).ready(function($) {
 
 	var siteCarousel = function () {
 		if ( $('.nonloop-block-13').length > 0 ) {
+      console.log($('.nonloop-block-13').length)
 			$('.nonloop-block-13').owlCarousel({
 		    center: false,
 		    items: 1,

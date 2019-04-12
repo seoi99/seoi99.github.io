@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Amplify &mdash; Website by Colorlib</title>
+    <title>BumJu Seo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="css0/aos.css">
 
     <link rel="stylesheet" href="css0/style.css">
-
+    <link rel="icon"
+        type="image/png"
+        href="./favicon.png">
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -85,7 +87,7 @@
           </div>
           <div class="col-lg-2 ml-auto"  data-aos="fade-up" data-aos-delay="100">
             <figure class="img-absolute">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+              <img src="images/prof.jpg" alt="Image" class="img-fluid">
             </figure>
           </div>
         </div>
@@ -170,56 +172,91 @@
               <li>On Click: you will be re-directed to my project.</li>
           </div>
         </div>
-
       </div>
-
-
-
 
 
       <div class="owl-carousel nonloop-block-13">
 
-          <a class="work-thumb" href="https://foodienyc.herokuapp.com/">
-            <div class="work-text">
-              <h3>Foodie</h3>
-              <p>Rails, PostgreSQL, React, Redux</p>
-              <ul>
-                <li>Fullstack-app built with Rails, Javascript, React, and Redux</li>
-                <li>CRUD functionality for user to interact</li>
-                <li>external API Usage with Google Map API</li>
-                <li>Search feature to return users specific request </li>
-                <li>JQuery to receive/request AJAX calls</li>
-              <ul>
-            </div>
-            <img src="images/foodie-main.png" alt="Image" class="img-fluid">
-          </a>
-          <a class="work-thumb" href="https://foodienyc.herokuapp.com/">
-            <div class="work-text">
-              <h3>Tank Shooter</h3>
-                <p>JavaScript, Canvas, HTML 5</p>
-                <ul class="check-li">
-                  <li>HTML Canvas 5 to produce animation</li>
-                  <li>Vanilla Javascript to handle user's EventListener</li>
-                  <li>ES6 style for component construction </li>
-                  <li>enemy chasing logic to follow current player's position</li>
-                  <li>collision method to destroy unit with sound effect</li>
-                </ul>
-              <ul>
-            </div>
-            <img src="images/tankshooter.png" alt="Image" class="img-fluid">
-          </a>
-          <a class="work-thumb" href="https://foodienyc.herokuapp.com/">
-            <div class="work-text">
-              <h3>MQuery</h3>
-                <p>JavaScript DOM manipulation library</p>
-                <ul class="check-li">
-                  <li>JavaScript DOM interaction library inspired by jQuery</li>
-                  <li>Created DOM library to receive & manipulate element interactively.</li>
-                  <li>Implemented event listener functionality to handle any event action.</li>
-                </ul>
-            </div>
-            <img src="images/mquery.png" alt="Image" class="img-fluid">
-          </a>
+      <a data-fancybox data-animation-duration="700" data-src="#animatedModal-1" href="#javascript:;" class="btn btn-primary">
+        <img src="images/foodie-main.png" alt="Image">
+      </a>
+
+      <div style="display:none;" id="animatedModal-1" class="animated-modal">
+
+        <div class="work-text">
+
+          <img src="images/foodie-main.png"  class="img-fluid" alt="Image"  style="width:500px;height:380px">
+          <h3>Foodie</h3>
+          <p>Ruby on Rails, PostgreSQL, React , and Redux </p>
+            <ul class="check-li">
+              <li>CRUD functionality for user to interact</li>
+              <li>external API Usage with Google Map API and Google Geo Location</li>
+              <li>Search feature to return users specific request </li>
+              <li>JQuery to receive/request AJAX calls</li>
+            </ul>
+            <button type="button" name="Visit Website" class="go-btn">
+                <a href="https://foodienyc.herokuapp.com/">Live</a>
+            </button>
+            <button type="button" name="View Code" class="go-btn">
+              <a href="https://github.com/seoi99/foodie">Github</a>
+            </button>
+        </div>
+      </div>
+
+
+      <a data-fancybox data-animation-duration="700" data-src="#animatedModal-2" href="#javascript:;" class="btn btn-primary">
+        <img src="images/tankshooter.png" alt="Image">
+      </a>
+
+      <div style="display: none;" id="animatedModal-2" class="animated-modal">
+
+        <div class="work-text">
+
+          <img src="images/tankshooter.png"  class="img-fluid" alt="Image"  style="width:500px;height:380px">
+          <h3>Tank Shooter</h3>
+            <p>JavaScript, Canvas, HTML 5</p>
+            <ul class="check-li">
+              <li>HTML Canvas 5 to produce animation</li>
+              <li>Vanilla Javascript to handle user's EventListener</li>
+              <li>ES6 style for component construction </li>
+              <li>enemy chasing logic to follow current player's position</li>
+              <li>collision method to destroy unit with sound effect</li>
+            </ul>
+          <ul>
+            <button type="button" name="Visit Website" class="go-btn">
+              <a href="http://tank-shooter.jake-seo.com">Live</a>
+
+            </button>
+            <button type="button" name="View Code" class="go-btn">
+              <a href="https://github.com/seoi99/TankShooter">Github</a>
+            </button>
+        </div>
+      </div>
+
+
+
+      <a data-fancybox data-animation-duration="700" data-src="#animatedModal-3" href="#javascript:;" class="btn btn-primary">
+        <img src="images/mquery.png" alt="Image">
+      </a>
+
+      <div style="display: none;" id="animatedModal-3" class="animated-modal">
+
+        <div class="work-text">
+
+          <img src="images/mquery.png"  class="img-fluid" alt="Image"  style="width:500px;height:380px">
+          <h3>MQuery</h3>
+            <p>JavaScript DOM manipulation library</p>
+            <ul class="check-li">
+              <li>JavaScript DOM interaction library inspired by jQuery</li>
+              <li>Created DOM library to receive & manipulate element interactively.</li>
+              <li>Implemented event listener functionality to handle any event action.</li>
+            </ul>
+            <button type="button" name="View Code" class="go-btn">
+              <a href="https://github.com/seoi99/mQuery">Github</a>
+            </button>
+        </div>
+      </div>
+
       </div>
     </div>
 
