@@ -836,6 +836,9 @@ transition: all 0.4s ease 0s;
       background-color: #e6e6e6; }
     .nonloop-block-13 .owl-dots .owl-dot.active span {
       background-color: #007bff; }
+    .nonloop-block-13 .owl-dots .owl-dot:nth-child(n+3) {
+      display: none;
+    }
 
 .nonloop-block-14 .owl-nav {
   display: none; }

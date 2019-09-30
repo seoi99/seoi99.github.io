@@ -1,5 +1,5 @@
 .intro-section {
-	
+
 	position: relative;
 	&, .container .row {
 		height: 100vh;
@@ -92,7 +92,7 @@
 }
 
 .counter {
-	
+
 	.icon-wrap {
 		margin-right: 1.5rem;
 		> span {
@@ -180,7 +180,7 @@
 		z-index: 2;
 		opacity: 0;
 		visibility: hidden;
-		
+
 		transition: .3s all ease;
 		margin-top: 20px;
 
@@ -214,6 +214,7 @@
 }
 
 .nonloop-block-13 {
+	
 	.owl-nav {
 		display: none;
 	}

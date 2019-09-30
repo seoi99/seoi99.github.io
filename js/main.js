@@ -121,8 +121,7 @@ jQuery(document).ready(function($) {
 
 
 	var siteCarousel = function () {
-		if ( $('.nonloop-block-13').length > 0 ) {
-      console.log($('.nonloop-block-13').length)
+      console.log($('.nonloop-block-13').length, 'len')
 			$('.nonloop-block-13').owlCarousel({
 		    center: false,
 		    items: 1,
@@ -142,10 +141,9 @@ jQuery(document).ready(function($) {
 	        	stagePadding: 0,
 	        	nav: true,
 	          items: 3
-	        }
+	        },
 		    }
 			});
-		}
 
 
 		if ( $('.nonloop-block-14').length > 0 ) {
