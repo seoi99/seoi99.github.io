@@ -664,7 +664,7 @@ transition: all 0.4s ease 0s;
         max-width: 100%; } }
 
 .site-section {
-  padding: 10em 0; }
+  padding: 5em 0; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; } }
@@ -901,6 +901,14 @@ transition: opacity .5s ease-out;
 .btn-primary img:hover {
   opacity: 1;
 
+}
+.img-center {
+  display: flex;
+  justify-content: center;
+}
+
+.process h3 {
+  text-align: center;
 }
 .service {
   padding: 4rem;

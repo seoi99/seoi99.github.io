@@ -195,7 +195,6 @@
 			font-size: .8rem;
 			color: rgba($white, .7);
 		}
-
 	}
 	&:hover {
 		z-index: 3;
@@ -203,6 +202,7 @@
 		&:after {
 			opacity: 1;
 			visibility: visible;
+	    max-width: 50%;
 		}
 		.work-text {
 			transition-delay: .2s;
@@ -210,11 +210,12 @@
 			visibility: visible;
 			margin-top: 0px;
 		}
+
 	}
 }
 
 .nonloop-block-13 {
-	
+
 	.owl-nav {
 		display: none;
 	}
